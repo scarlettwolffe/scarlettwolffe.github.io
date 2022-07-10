@@ -1,0 +1,63 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    float: left;
+    margin: 20px 20px;
+}
+nav a:hover{
+    color: orangered
+}
+header h1{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px orangered;
+}
+header img{
+    float: right;
+    clear:both;
+}
+main{
+    margin-top: 100px;
+}
+main h2{
+    margin-left: 100px;
+    padding-left: 100px;
+    font-size: 35px;
+    text-shadow: 0px 0px 10px orangered;
+}
+main p{
+    text-indent: 100px;
+}
+main h3{
+    padding: 20px 20px;
+    text-align: center;
+}
+footer p{
+    bottom:20px;
+    color: orangered;
+    margin-left: 40px;
+}
+footer a:hover{
+    color:teal
+}
+main table{
+    display:block;
+    background-image: url("./gaming.jpg");
+    width:25%;
+    height:300px;
+}
+.tabletitle{
+    width:500px;
+    height:100px;
+}
+main table tr{
+    height: 50px;
+}
